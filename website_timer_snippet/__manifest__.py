@@ -8,7 +8,7 @@
 {
     'name': 'Website Timer Snippet',
     'category': 'Website',
-    'version': '13.0.1',
+    'version': '12.0.1',
     'summary': 'Website Timer Snippet',
 
     'description': """
