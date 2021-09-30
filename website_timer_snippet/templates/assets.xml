@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="website_assets_frontend" inherit_id="website.assets_frontend">
+         <xpath expr="." position="inside">
+            <script type="text/javascript" src="/website_timer_snippet/static/src/js/custom.js"></script>
+        </xpath>
+    </template>
+</odoo>
