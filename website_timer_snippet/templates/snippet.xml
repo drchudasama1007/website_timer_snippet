@@ -16,7 +16,7 @@
 
     <template id="timer_snippet" name="Timer Snippet">
         <section style="background: rgb(189,158,78);background: linear-gradient(90deg, rgba(189,158,78,1) 0%, rgba(249,239,150,1) 35%, rgba(197,166,75,1) 100%);">
-            <input type="hidden" id="timer" t-att-value="request.env.company.timer"/>
+            <input type="hidden" id="timer" t-att-value="request.website.company_id.timer"/>
             <div class="s_rating row te_s_header_offer_text pt8 pb8 text-black">
                 <div class="col-md-12 text-center">
                     Buy More and Save Offer - <span id="day">00</span>D <span id="hour">00</span>H : <span id="minite">00</span>M : <span id="second">00</span>S
